@@ -9,8 +9,7 @@ sabedoria — nome à altura de um sistema que **deduz conhecimento novo** a par
 do que já sabe.
 
 O objetivo não é ser um motor de produção, e sim **ensinar como construir um
-sistema de conhecimento em Lisp usando macros**. Todo o código e os comentários
-estão em **português (pt-br)** e o arquivo foi pensado para ser lido de cima
+sistema de conhecimento em Lisp usando macros**. O arquivo foi pensado para ser lido de cima
 para baixo, como um tutorial.
 
 ---
