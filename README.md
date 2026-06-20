@@ -103,7 +103,7 @@ O embutido `nao` traz um conceito central da programação lógica:
   (nao (maior-de-idade ?p)))   ; "não consigo provar que é maior"
 ```
 
-⚠️ **Cuidado educativo:** `(nao X)` significa *"não consigo provar X"*, e não
+ **Cuidado educativo:** `(nao X)` significa *"não consigo provar X"*, e não
 *"provei que X é falso"*. Isso supõe **mundo fechado** (tudo que é verdade está
 na base) e só funciona bem quando `X` já não tem variáveis livres. É uma
 armadilha clássica — e uma ótima lição.
@@ -219,4 +219,4 @@ de uma vez, e fazer `explicar` mostrar o rastro de prova.
 
 Para manter o foco didático, este sistema **não** tem: negação, índices
 avançados, *occurs check* na unificação, ou controle de loop infinito em regras
-mal escritas. Cada limitação é uma boa oportunidade de estudo. 🙂
+mal escritas. Cada limitação é uma boa oportunidade de estudo.
